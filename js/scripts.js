@@ -9,11 +9,19 @@ function encodedMessage(text){
   var rowLength = Math.floor(Math.sqrt(charArray.length));
   var columnLength = Math.ceil(Math.sqrt(charArray.length));
 
-  for (var i=0; i <= charArray.length; i++) {
+  var newSentence = [];
+  var newString = [];
+  var x = columnLength;
 
-  }
+  for (var i=0; i < charArray.length; i++) {
+       for (var j = 0; j < x ; j = j + 5) {
+           newString += charArray.slice(j, j+5) + " ";
+       }
 
- return result;
+   result = newString.slice(0, newString.length - 1);
+   }
+
+
 }
 
 
