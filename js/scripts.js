@@ -4,7 +4,7 @@ function encodedMessage(text){
   var result = [];
 
 
-// Starting at the largest number, continue subtracting from the numbers table and appending as long as the remainder is greater than the numbers value.
+
 
  return result;
 }

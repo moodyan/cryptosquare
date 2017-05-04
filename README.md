@@ -9,23 +9,15 @@
 
 | Description  | Input Example | Output Example |
 | ------------- | ------------- | ------------- |
-| The program does not allow for anything other than numbers to be entered.  | a  | --  |
-| The program allows numbers up to 3999.  | 4000  | alert: "Number is too big!"  |
-| The program turns number 1 into I.  | 1  | I  |
-| The program turns number 4 into IV.  | 4  | IV  |
-| The program turns the number 5 into the string V.  | 5  | V  |
-| The program turns the number 9 into the string IX. | 9  | IX  |
-| The program turns the number 10 into the string X.   | 10  | X  |
-| The program turns the number 40 into the string XL.  | 40  | XL  |
-| The program turns the number 50 into the string L.  | 50  | L  |
-| The program turns the number 90 into the string XC.  | 90  | XC  |
-| The program turns the number 100 into the string C.  | 100  | C  |
-| The program turns the number 400 into the string CD.  | 400  | CD  |
-| The program turns the number 500 into the string D.  | 500  | D  |
-| The program turns the number 900 into the string CM.  | 900  | CM  |
-| The program turns the number 1000 into the string M.  | 1000  | M  |
-| The program adds the value of all the symbols.  | 2, 66  | II, LXVI  |
-| The program knows to only allow three of the same roman numeral in a row per number before switching to the next numeral up.  | 39, 40  | XXXIX, XL  |
+| The program turns all uppercase into lower case.  | The dog jumped.  | the dog jumped.  |
+| The program removes spaces and non-alphanumeric characters from the message.  | the dog jumped.  | thedogjumped  |
+| The program turns the inputted string into individual character strings.  | jumped  | "j", "u", "m", "p", "e", "d"  |
+| The program counts the number of arrays.  | thedogjumped  | 12   |
+| The program decides the size of the "rectangle" (r x c). r = 5, as long as (c - r <= 1) divisible by 5 (c >=r) .  | char length 12  | ???? |
+| If the length of the message fills a perfect square (r = c), the program uses (r x r) and word length is determined by number of columns.  | the dog jumped over  | tomo hgpv ejee dudr  |
+| The program creates new arrays with 5 letters in each array.  | The dog jumped.  | tomhg pejed...  |
+| The program knows how to handle end arrays that aren't five letters.  | The dog jumped.  | tomhg pejed ud.  |
+
 
  ## Known Bugs
 _None._
