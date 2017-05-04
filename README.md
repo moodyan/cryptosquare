@@ -13,7 +13,7 @@
 | The program removes spaces and non-alphanumeric characters from the message.  | the dog jumped.  | thedogjumped  |
 | The program turns the inputted string into individual character strings.  | jumped  | "j", "u", "m", "p", "e", "d"  |
 | The program counts the number of arrays.  | thedogjumped  | 12   |
-| The program determines the nearest ??.  | char length 12  | ???? |
+| The program determines the square root of the leng.  | char length 12  | ???? |
 | If the return number is less than five,   | the dog jumped over  | tomo hgpv ejee dudr  |
 | The program creates new arrays with 5 letters in each array.  | The dog jumped.  | tomhg pejed...  |
 | The program knows how to handle end arrays that aren't five letters.  | The dog jumped.  | tomhg pejed ud.  |

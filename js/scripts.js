@@ -5,9 +5,13 @@ function encodedMessage(text){
   var result = [];
   var cleanText = text.toLowerCase().replace(/[^0-9a-zA-Z]/g, '');
   var charArray = cleanText.split('');
-  console.log(charArray);
 
+  var rowLength = Math.floor(Math.sqrt(charArray.length));
+  var columnLength = Math.ceil(Math.sqrt(charArray.length));
 
+  for (var i=0; i <= charArray.length; i++) {
+
+  }
 
  return result;
 }
