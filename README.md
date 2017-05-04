@@ -20,7 +20,7 @@
 | The program hides the initial message and shows the final message to the user.  | The dog jumped.  | tomhg pejed ud.  |
 
  ## Known Bugs
-_None._
+_Yes._
 
  ## Support and contact details
 _Contact Alyssa Moody at alyssanicholemoody@gmail.com._
